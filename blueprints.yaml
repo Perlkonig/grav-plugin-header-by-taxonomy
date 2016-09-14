@@ -1,0 +1,26 @@
+name: Header By Taxonomy
+version: 1.0.0
+description: Set header data by taxonomy
+icon: header
+author:
+  name: Aaron Dalton
+  email: aaron@daltons.ca
+homepage: https://github.com/Perlkonig/grav-plugin-header-by-taxonomy
+keywords: grav, plugin, header, taxonomy
+bugs: https://github.com/Perlkonig/grav-plugin-header-by-taxonomy/issues
+readme: https://github.com/Perlkonig/grav-plugin-header-by-taxonomy/blob/master/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
