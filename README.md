@@ -60,7 +60,7 @@ sets:
 
   * The `enabled` field allows you to turn the plugin off and on.
 
-  * The `overwrite` field tells the plugin what to do overall if a header already exists in the page file itself.
+  * The `overwrite` field tells the plugin what to do overall if a header already exists in the page file itself. The default is `false`.
 
   * The `sets` field is where all the action happens. The plugin processes each set in sequence.
 
