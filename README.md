@@ -12,7 +12,7 @@ The simplest way to install this plugin is via the [Grav Package Manager (GPM)](
 
     bin/gpm install header-by-taxonomy
 
-This will install the Blogroll plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/header-by-taxonomy`.
+This will install the Header by Taxonomy plugin into your `/user/plugins` directory within Grav. Its files can be found under `/your/site/grav/user/plugins/header-by-taxonomy`.
 
 ### Manual Installation
 
@@ -28,7 +28,7 @@ You should now have all the plugin files under
 
 All you need to do is configure the plugin as described below. Everything else is automatic. Possible uses include the following:
 
-  * Activate a plugin (for plugins that allow page-by-page activation, like `pubmed`)
+  * Activate a plugin (for plugins that allow page-by-page activation, like [`pubmed`](https://github.com/Perlkonig/grav-plugin-pubmed))
 
   * Inject specific meta tags [via the `metadata` header](https://learn.getgrav.org/content/headers#meta-page-headers)
 
