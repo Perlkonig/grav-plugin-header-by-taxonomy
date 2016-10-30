@@ -42,7 +42,7 @@ class HeaderByTaxonomyPlugin extends Plugin
 
         // Enable the main event we are interested in
         $this->enable([
-            'onPageProcessed' => ['onPageProcessed', 0]
+            'onPageProcessed' => ['onPageProcessed', 1000000]
         ]);
     }
 
